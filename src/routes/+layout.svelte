@@ -5,12 +5,21 @@
 
 	const links: { href: string; label: string }[] = [
 		{
-			href: '/',
-			label: 'popover'
-		},
-		{
 			href: '/menu',
 			label: 'menu'
+		},
+
+		{
+			href: '/link-preview',
+			label: 'link preview'
+		},
+		{
+			href: '/tooltip',
+			label: 'tooltip'
+		},
+		{
+			href: '/',
+			label: 'popover'
 		},
 		{
 			href: '/date-range-picker',
@@ -19,14 +28,6 @@
 		{
 			href: '/date-picker',
 			label: 'date picker'
-		},
-		{
-			href: '/link-preview',
-			label: 'link preview'
-		},
-		{
-			href: '/tooltip',
-			label: 'tooltip'
 		},
 		{
 			href: '/combobox',
